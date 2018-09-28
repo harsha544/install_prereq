@@ -1,0 +1,5 @@
+git clone https://gerrit.hyperledger.org/r/fabric-samples 
+
+curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
+
+docker pull hyperledger/fabric-ca:ppc64le-1.1.0 
