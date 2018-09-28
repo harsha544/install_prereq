@@ -4,6 +4,7 @@ apt install wget curl -y
 wget https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/ppc64el/docker-ce_18.03.1~ce-0~ubuntu_ppc64el.deb
 apt install libltdl7 -y
 dpkg -i docker-ce_18.03.1~ce-0~ubuntu_ppc64el.deb
+apt-get -f install
 
 echo "Install docker-compose"
 apt install python python-dev -y
